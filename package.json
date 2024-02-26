@@ -1,0 +1,34 @@
+{
+  "name": "snapserve-wonka",
+  "version": "0.0.0",
+  "description": "An example SnapServe plugin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cinnabar-forge/snapserve-wonka.git"
+  },
+  "license": "ISC",
+  "author": {
+    "name": "Timur Moziev",
+    "email": "timur.moziev@gmail.com",
+    "url": "https://timurrin.github.io"
+  },
+  "type": "module",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "version.json",
+    "wonka.jpg"
+  ],
+  "scripts": {
+    "format": "npx prettier . --write",
+    "lint": "npx eslint --fix --ext .js,.json .",
+    "verify": "npm run lint && npm run format"
+  },
+  "devDependencies": {
+    "@cinnabar-forge/eslint-plugin": "0.3.0"
+  },
+  "peerDependencies": {
+    "express": ">=4.18.0",
+    "snapserve": ">=0.2.0"
+  }
+}
