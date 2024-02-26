@@ -3,8 +3,8 @@
   "package": "snapserve-wonka",
   "name": "SnapServe Wonka Plugin",
   "major": 0,
-  "minor": 0,
+  "minor": 1,
   "patch": 0,
-  "revision": 0,
-  "timestamp": 0
+  "revision": 1,
+  "timestamp": 1708963422
 }
