@@ -25,10 +25,11 @@
     "verify": "npm run lint && npm run format"
   },
   "devDependencies": {
-    "@cinnabar-forge/eslint-plugin": "0.3.0"
+    "@cinnabar-forge/eslint-plugin": "0.3.0",
+    "@cinnabar-forge/meta": "0.1.2"
   },
   "peerDependencies": {
-    "express": ">=4.18.0",
-    "snapserve": ">=0.2.0"
+    "express": ">=4.19.2",
+    "snapserve": ">=0.3.2"
   }
 }
