@@ -29,7 +29,7 @@
     "@cinnabar-forge/meta": "0.1.2"
   },
   "peerDependencies": {
-    "express": ">=4.19.2",
-    "snapserve": ">=0.3.2"
+    "express": ">=4.21.2",
+    "snapserve": ">=0.3.3"
   }
 }
